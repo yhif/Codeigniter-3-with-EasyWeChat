@@ -302,21 +302,6 @@ switch (ENVIRONMENT)
 		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
 		exit(3); // EXIT_CONFIG
 	}
-
-	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
-
-	// COMPOSER DIRECTORY NAME
-	$composer_path = 'vendor';
-
-	if (($_composer_temp = realpath($composer_path)) !== FALSE)
-	{
-		$composer_path = $_composer_temp.DIRECTORY_SEPARATOR;
-		
-	}
-
-	// Path to the composer directory
-	define('COMPOSERPATH', $composer_path);
-
 /*
  * --------------------------------------------------------------------
  * LOAD THE BOOTSTRAP FILE
