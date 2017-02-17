@@ -3,7 +3,7 @@ Codeigniter-3-with-EasyWeChat
 ###################
 Codeigniter 3 优雅使用 EasyWeChat
 
-链接：`Codeigniter 3 优雅使用 EasyWeChat <https://yhif.github.io/2016/08/28/Codeigniter-3-with-EasyWeChat/>`_
+使用说明：`Codeigniter 3 优雅使用 EasyWeChat <https://yhif.github.io/2016/08/28/Codeigniter-3-with-EasyWeChat/>`_
 
 *********
 相关链接
